@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategic Execution Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Strategic Execution Assistant</h1>
+            <p class="subtitle">AI-powered task extraction and strategic planning</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Left Sidebar -->
+            <aside class="sidebar">
+                <section class="input-section">
+                    <h2>📧 Compose</h2>
+                    <textarea 
+                        id="emailInput" 
+                        placeholder="Paste your emails here...&#10;&#10;Example:&#10;Subject: Project Update&#10;From: john@example.com&#10;&#10;Can you send me the Q4 report by Friday?"
+                        rows="12"
+                    ></textarea>
+                    
+                    <div class="controls">
+                        <button id="extractButton" class="btn btn-primary">
+                            <span class="icon">🤖</span> Extract Tasks
+                        </button>
+                        <button id="clearButton" class="btn btn-secondary">
+                            <span class="icon">🗑️</span> Clear
+                        </button>
+                    </div>
+
+                    <div class="settings">
+                        <label>
+                            <input type="checkbox" id="useOpenAI" />
+                            Use OpenAI (requires API key)
+                        </label>
+                        <input 
+                            type="password" 
+                            id="openaiKey" 
+                            placeholder="OpenAI API Key (optional)"
+                            style="display: none;"
+                        />
+                    </div>
+                </section>
+            </aside>
+
+            <!-- Main Content Area -->
+            <main class="main-area">
+                <div class="toolbar">
+                    <div class="toolbar-left">
+                        <h2>📋 Tasks</h2>
+                    </div>
+                    <div class="toolbar-right">
+                        <span id="taskCount" class="task-count">0 tasks</span>
+                    </div>
+                </div>
+
+                <div id="statusMessage" class="status-message"></div>
+
+                <div id="loadingSpinner" class="loading-spinner" style="display: none;">
+                    <div class="spinner"></div>
+                    <p>Analyzing emails...</p>
+                </div>
+
+                <div id="taskList" class="task-list">
+                    <!-- Tasks will be inserted here -->
+                </div>
+
+                <div id="emptyState" class="empty-state">
+                    <div class="empty-icon">📭</div>
+                    <h3>No tasks yet</h3>
+                    <p>Paste your emails and click "Extract Tasks" to get started</p>
+                </div>
+            </main>
+
+            <!-- Calendar Section - Top Right -->
+            <aside class="calendar-sidebar" id="calendarSection" style="display: none;">
+                <div class="calendar-header">
+                    <button id="prevMonth" class="calendar-nav">‹</button>
+                    <h2 id="calendarTitle">Calendar</h2>
+                    <button id="nextMonth" class="calendar-nav">›</button>
+                </div>
+                <div id="calendar" class="calendar-grid">
+                    <!-- Calendar will be generated here -->
+                </div>
+            </aside>
+        </div>
+
+        <footer>
+            <p>Strategic Execution Assistant • Built with AI/NLP • Privacy-first</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

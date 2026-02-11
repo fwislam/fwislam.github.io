@@ -1,0 +1,74 @@
+# Example Emails to Test
+
+Copy and paste these into the app to see how it works!
+
+---
+
+Subject: Q4 Report Request
+From: manager@amazon.com
+
+Hi, can you send me the Q4 financial report by Friday? We need it for the board meeting. Thanks!
+
+---
+
+Subject: URGENT: Client Presentation
+From: sales@amazon.com
+
+URGENT - Please review the client presentation ASAP. The meeting is tomorrow at 9 AM and we need your feedback immediately.
+
+---
+
+Subject: Weekly Tasks
+From: team@amazon.com
+
+Please complete these by end of week:
+1. Review the budget proposal
+2. Send feedback on the design mockups  
+3. Schedule a follow-up meeting
+
+---
+
+Subject: Project Update
+From: john@amazon.com
+
+Can you update the project timeline and send it over? No rush, whenever you have time.
+
+---
+
+Subject: Meeting Follow-up
+From: sarah@amazon.com
+
+Following up on our meeting - could you please:
+- Send the contract by March 18
+- Schedule a call with the client
+- Review the attached documents
+
+Thanks!
+
+---
+
+Subject: Design Review Needed
+From: design@amazon.com
+
+Hey, can you review the new mockups by Thursday morning? We're presenting to the client on Friday and need your sign-off first.
+
+---
+
+Subject: Budget Approval
+From: finance@amazon.com
+
+Please approve the Q1 budget by end of day Monday. We need to submit it to the board by Tuesday afternoon.
+
+---
+
+Subject: FYI - Meeting Notes
+From: assistant@amazon.com
+
+FYI, here are the notes from today's meeting. No action needed from you.
+
+---
+
+Subject: Newsletter - March 2024
+From: newsletter@techsite.com
+
+Here's your monthly tech newsletter! Click here to unsubscribe.
